@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div data-role="page" id="configcuenta" class="home bg1">
+            <div role="main" class="ui-content">
+                <div data-role="header">
+                    <h3 id="InfoUsuario"><span class="icon-user"></span> User Information</h1>
+                </div>
+                <div class="ui-content">
+                    <br>
+                    <form name="formContacto">
+                        <label style="color: black; background-color: white;" id="labUsuario" >User Name</label>
+                        <input id="tUsuario" </input>
+                        <label style="color: black; background-color: white;" >Password</label>
+                        <input id="tClave1" </input>
+                        <label style="color: black; background-color: white;" >Confirm Password</label>
+                        <input id="tClave2" </input>
+                        <label style="color: black; background-color: white;" >email</label>
+                        <input  id="tEmail" </input>
+                        <label style="color: black; background-color: white;" >User Category</label>
+                        <select id="slcCategory">
+                          <option value="00">Select User Category</option>
+                          <option value="01">Player</option>
+                          <option value="02">Scout</option>
+                          <option value="03">Trainer</option>
+                        </select>
+                        <label style="color: black; background-color: white;" >Sport</label>
+                        <select id="slcTipo">
+                          <option value="00">Select Sport</option>
+                          <option value="01">Baseball</option>
+                          <option value="02">BasketBall</option>
+                          <option value="03">American Football</option>
+                          <option value="04">Tennis</option>
+                          <option value="05">Soccer</option>
+                          <option value="06">Other</option>
+                        </select>
+
+                        <center><button class="btn-diamond" id="btModificar"><span class="icon-user-plus"></span> Register</button></center>
+                        <center><button onclick="window.location.href='index.html'" class="btn-diamond" id="liConfigAtras"><span class="icon-undo"></span> Go Back</button></center>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
